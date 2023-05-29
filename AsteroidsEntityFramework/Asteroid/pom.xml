@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>dk.sdu.mmmi.cbse</groupId>
-        <artifactId>asteroids.serviceloader</artifactId>
+        <artifactId>CBSE</artifactId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>Asteroid</artifactId>
@@ -14,11 +14,6 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>Common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>CommonAsteroids</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
