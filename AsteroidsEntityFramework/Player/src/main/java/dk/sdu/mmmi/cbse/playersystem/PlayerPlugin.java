@@ -47,4 +47,8 @@ public class PlayerPlugin implements IGamePluginService {
         world.removeEntity(player);
     }
 
+    public Entity getPlayer() {
+        return player;
+    }
+
 }
